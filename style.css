@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+}
+.main-content{
+    display: flex;
+    flex-direction: column;
+}
+.height{
+    height: 98vh;
+    box-sizing: border-box;
+}
+.video{
+    
+    background-color: black;
+}
+
+.biography{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.biography h1{
+    margin: 20px;
+}
+video {
+    height: 98vh;
+    width: 100%;
+}
+.profile{
+    height: 78vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    /* gap: 100px; */
+}
+.quotes {
+   padding: 20px;
+}
+.image img{
+    height: 470px;
+}
+.biodetails{
+    width: 400px;
+    line-height: 1.6;
+    font-size: 18px;
+}
+.line{
+    width: 500px;
+    height: 3px;
+    background-color: grey;
+    margin: 20px;
+}
+.ind img{
+    height: 80px;
+}
